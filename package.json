@@ -1,0 +1,53 @@
+{
+  "name": "storybook-showcase",
+  "version": "1.0.0",
+  "description": "A showcase of storybook features",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clhartley/storybook-showcase.git"
+  },
+  "keywords": [
+    "storybook",
+    "react",
+    "typescript"
+  ],
+  "author": "Connor H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clhartley/storybook-showcase/issues"
+  },
+  "homepage": "https://github.com/clhartley/storybook-showcase#readme",
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.11",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.0",
+    "@storybook/addon-a11y": "^7.0.0-beta.61",
+    "@storybook/addon-essentials": "^7.0.0-beta.61",
+    "@storybook/addon-interactions": "^7.0.0-beta.61",
+    "@storybook/addon-links": "^7.0.0-beta.61",
+    "@storybook/blocks": "^7.0.0-alpha.8",
+    "@storybook/react": "^7.0.0-beta.61",
+    "@storybook/react-webpack5": "^7.0.0-beta.61",
+    "@storybook/testing-library": "^0.0.14-next.1",
+    "storybook": "^7.0.0-beta.61",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0"
+  }
+}
